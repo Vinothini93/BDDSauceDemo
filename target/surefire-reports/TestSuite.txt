@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.785 s <<< FAILURE! - in TestSuite
+negativeLoginTest_MissingPassword(apiTests.LoginAPITest)  Time elapsed: 1.882 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code 400 expected [400] but found [401]
+	at apiTests.LoginAPITest.negativeLoginTest_MissingPassword(LoginAPITest.java:34)
+
+positiveLoginTest(apiTests.LoginAPITest)  Time elapsed: 0.34 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code 200 expected [200] but found [401]
+	at apiTests.LoginAPITest.positiveLoginTest(LoginAPITest.java:20)
+
